@@ -1890,6 +1890,11 @@ projects:
     category: django-utils
     labels: ["django"]
     pypi_id: django-dbbackup
+  - name: django-codemod
+    github_id: browniebroke/django-codemod
+    category: django-utils
+    labels: ["django"]
+    pypi_id: django-codemod
   - name: django-csp
     github_id: mozilla/django-csp
     category: django-utils
@@ -2674,3 +2679,13 @@ projects:
     category: testing
     conda_id: conda-forge/parameterized
     pypi_id: parameterized
+  - name: factory_boy
+    github_id: FactoryBoy/factory_boy
+    category: testing
+    labels: ["django"]
+    pypi_id: factory_boy
+  - name: drf-spectacular
+    github_id: tfranzel/drf-spectacular
+    category: openapi-utils
+    labels: ["openapi"]
+    pypi_id: drf-spectacular
